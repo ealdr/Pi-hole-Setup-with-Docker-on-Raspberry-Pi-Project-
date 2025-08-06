@@ -166,5 +166,8 @@ This project was a great introduction to self-hosting, containerization, and wor
 I now feel more confident working with Docker, and I'm excited to explore more self-hosted tools in future projects.
 
 
+##  Thanks for Reading
 
+Thanks for checking out my Pi-hole + Docker on Raspberry Pi project.
+If you'd like to connect or ask questions, you can reach me via [LinkedIn](https://www.linkedin.com/in/ethan-a-a95b14324/)
 
