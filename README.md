@@ -113,7 +113,7 @@ Other helpful sections in the dashboard:
 ---
 
 ## Tests I ran
-To evaluate the effectiveness of Pi-hole on my computer, I ran an [AdBlock tester](https://adblock-tester.com/) under three different setups:
+To evaluate and observe the effectiveness of Pi-hole on my computer, I ran an [AdBlock tester](https://adblock-tester.com/) under three different setups:
 
 ### Router firewall settings only
 Baseline test — relying only on the router's default ad/privacy protections. On here the Adblocker test tells me I score 38/100 points which is relatively bad.
