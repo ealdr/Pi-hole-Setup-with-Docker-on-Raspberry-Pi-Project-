@@ -128,6 +128,16 @@ Pi-hole and the router, without any browser based ad blockers. This scored 69/10
 
 <img width="183" height="32" alt="image" src="https://github.com/user-attachments/assets/62235fdb-e7df-4a79-941f-74efb3499efe" />
 
+### Router + Pi-hole + AdBlock Chrome Extension
+Combined Pi-hole DNS filtering with a browser-based blocker. This scored 77/100 which is excellent.
+
+<img width="183" height="32" alt="image" src="https://github.com/user-attachments/assets/9c4dd39f-8042-4e58-9416-7c022a6cf493" />
+
+I also found adding the bitdefender anti-tracker chrome extension increases the total score to 92/100 which is more than necessary.
+
+<img width="183" height="32" alt="image" src="https://github.com/user-attachments/assets/b1a859ad-62e6-440d-a31d-ed6ed19a2bd1" />
+
+
 
 
 
