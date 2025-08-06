@@ -137,6 +137,33 @@ I also found adding the bitdefender anti-tracker chrome extension increases the 
 
 <img width="183" height="32" alt="image" src="https://github.com/user-attachments/assets/b1a859ad-62e6-440d-a31d-ed6ed19a2bd1" />
 
+---
+
+## Issues that occured 
+
+When trying to execute `vim docker-compse.yml` I got the error `could not open lock file .var.lib/dpkg/lock-frontend - open`. To try and fix this I entered `sudo dpkg --configure -a`, which then said `are you root?`, this is because I had forgotten to install vim before starting, so I ran `sudo apt-get install vim` and then it began to work.
+
+---
+
+## Optional step (Pi-connect)
+
+To have easy access to my Raspberry Pi without having to connect it to a screen each time I want to use it, I downloaded [Pi-Connect](https://www.raspberrypi.com/software/connect/) which allows me to have remote access to it through a web browser anywhere in the world. I created an account on the website, logged into the same account on the Pi, and then on my Raspberry Pi installed Pi connect. In the command prompt, I entered: `sudo apt install rpi-connect` and then: `rpi-connect on`. I was then able to connect to the Pi remotely.
+
+However, unlike Pi-hole, Pi-Connect does not automatically start on boot. Each time the Pi restarts, I have to first access the shell and manually run: `rpi-connect on`.  After that, I’m able to return to the browser interface and access screen sharing and remote control.
+
+
+---
+
+## Final thoughts / What I learned 
+
+This project was a great introduction to self-hosting, containerization, and working with a Raspberry Pi setup and let me gain practical experience. I learned how to:
+- Use Docker Compose to run isolated applications.
+- Install and configure Pi-hole as a DNS-based ad blocker for my devices.
+- Access my Raspberry Pi remotely using Pi-Connect, improving convenience.
+- Network problem Solving.
+- Structure a technical write-up and document my process for others to follow.
+
+I now feel more confident working with Docker, and I'm excited to explore more self-hosted tools in future projects.
 
 
 
