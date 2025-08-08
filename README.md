@@ -161,6 +161,7 @@ This project was a great introduction to self-hosting, containerization, and wor
 - Install and configure Pi-hole as a DNS-based ad blocker for my devices.
 - Access my Raspberry Pi remotely using Pi-Connect, improving convenience.
 - Network problem Solving.
+- Basic Linux architecture
 - Structure a technical write-up and document my process for others to follow.
 
 I now feel more confident working with Docker, and I'm excited to explore more self-hosted tools in future projects.
